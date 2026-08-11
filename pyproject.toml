@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gandr-langchain"
+version = "0.1.0"
+description = "LangChain text to speech tool for the Gandr TTS API. First audio byte in 146 ms over the open internet, 116 ms p50 first audio, server side warm. 23 languages, every render watermarked."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Sam Alghaithi", email = "sam@gandr.ai" }]
+keywords = ["tts", "text-to-speech", "langchain", "voice-agents", "gandr"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["langchain-core>=0.3", "gandr>=0.1.2", "pydantic>=2"]
+
+[project.urls]
+Homepage = "https://gandr.ai"
+Documentation = "https://gandr.ai/docs"
+Source = "https://github.com/Gandr-AI/gandr-langchain"
