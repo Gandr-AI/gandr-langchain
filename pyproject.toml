@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gandr-langchain"
-version = "0.1.0"
+version = "0.1.1"
 description = "LangChain text to speech tool for the Gandr TTS API. First audio byte in 146 ms over the open internet, 116 ms p50 first audio, server side warm. 23 languages, every render watermarked."
 readme = "README.md"
 requires-python = ">=3.9"
